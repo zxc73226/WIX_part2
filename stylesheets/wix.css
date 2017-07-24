@@ -72,31 +72,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 * {
   box-sizing: border-box;
   position: relative;
-  text-align: center;
 }
 
-/* line 15, ../sass/wix.scss */
+/* line 14, ../sass/wix.scss */
 html,
 body {
   font-family: 'Noto Sans TC', sans-serif;
-  background-color: white;
+  background-color: rgba(10, 10, 10, 0.01);
 }
 
-/* line 21, ../sass/wix.scss */
+/* line 20, ../sass/wix.scss */
 #header {
   height: 145px;
-  border: 1px solid black;
 }
 
-/* line 26, ../sass/wix.scss */
+/* line 24, ../sass/wix.scss */
 #sectionTop {
   height: 400px;
-  border: 1px solid black;
+  background-image: url("../wix_image/iceberg.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 120px;
 }
 
-/* line 31, ../sass/wix.scss */
+/* line 32, ../sass/wix.scss */
 #sectionBottom {
-  border: 1px solid black;
   height: 100%;
 }
 
@@ -104,8 +104,8 @@ body {
 #footer {
   margin-top: 200px;
   height: 70px;
-  border: 1px solid black;
   bottom: 10%;
+  background-color: #151515;
 }
 
 /* line 43, ../sass/wix.scss */
@@ -124,59 +124,118 @@ body {
 .header_left_grod {
   width: 260px;
   height: 100%;
+  text-align: left;
+  padding-top: 100px;
+  font-size: 0.8rem;
 }
 
-/* line 58, ../sass/wix.scss */
+/* line 61, ../sass/wix.scss */
 .header_center_grod {
   width: 460px;
   height: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 50px;
+}
+/* line 67, ../sass/wix.scss */
+.header_center_grod a {
+  text-decoration: none;
+  color: #151515;
+  font-weight: 700;
 }
 
-/* line 63, ../sass/wix.scss */
+/* line 74, ../sass/wix.scss */
 .header_right_grod {
   width: 260px;
   height: 100%;
+  text-align: right;
+  padding-top: 50px;
+}
+/* line 79, ../sass/wix.scss */
+.header_right_grod a {
+  text-decoration: none;
+  color: #151515;
 }
 
-/* line 68, ../sass/wix.scss */
+/* line 85, ../sass/wix.scss */
 .hrg {
   width: 100%;
   height: 50%;
 }
 
-/* line 73, ../sass/wix.scss */
+/* line 90, ../sass/wix.scss */
 .grid {
   width: 455px;
   height: 530px;
   display: inline-block;
   margin: 12px;
-  border: 1px solid black;
   margin: 16px 16px;
 }
 
-/* line 82, ../sass/wix.scss */
+/* line 98, ../sass/wix.scss */
 .tgrid {
   height: 50%;
   width: 100%;
   background-image: url("../wix_image/mountain.jpg");
 }
 
-/* line 88, ../sass/wix.scss */
+/* line 104, ../sass/wix.scss */
 .bgrid {
   height: 50%;
   width: 100%;
+  background-color: white;
 }
 
-/* line 93, ../sass/wix.scss */
+/* line 110, ../sass/wix.scss */
 .footer_left_grid {
   width: 824.5px;
   height: 100%;
   float: left;
+  padding-top: 30px;
+  font-size: .8rem;
+  letter-spacing: 0.5px;
+  color: white;
 }
 
-/* line 99, ../sass/wix.scss */
+/* line 120, ../sass/wix.scss */
 .footer_right_grid {
   width: 155.5px;
   height: 100%;
   float: right;
+}
+
+/* line 126, ../sass/wix.scss */
+.textH {
+  font-size: 4.3rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+/* line 132, ../sass/wix.scss */
+.textP {
+  font-size: 1.3rem;
+  color: white;
+}
+
+/* line 137, ../sass/wix.scss */
+.bgrid {
+  text-align: center;
+}
+/* line 139, ../sass/wix.scss */
+.bgrid h3 {
+  font-size: 1.4rem;
+  padding: 60px 0px 0px 0px;
+  font-weight: 500;
+}
+/* line 144, ../sass/wix.scss */
+.bgrid p {
+  font-size: 0.9rem;
+  margin: 30px 0px;
+}
+
+/* line 150, ../sass/wix.scss */
+.text-grid {
+  color: rgba(21, 21, 21, 0.2);
+  margin: 30px 0px;
+  color: gray;
 }
